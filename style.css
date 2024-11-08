@@ -1,0 +1,106 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(116, 28, 28);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Seção Sobre Mim */
+.sobre-mim {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.sobre-mim .sobre-mim-texto {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.sobre-mim h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #A52A2A;
+}
+
+.sobre-mim p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.sobre-mim-imagens {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sobre-mim-imagens img {
+    width: 30%;
+    border-radius: 8px;
+}
+
+/* Galeria */
+.galeria {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.galeria h2 {
+    font-family: 'Georgia', serif;
+    color: #A52A2A;
+}
+
+.galeria ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.galeria li {
+    flex: 1;
+    margin: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: rgb(112, 23, 23);
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
